@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7cacfa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.player {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.cover img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info {
+    margin-top: 10px;
+}
+
+.info h2 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#progress, #volume {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.time {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+#playlist {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+    border-top: 1px solid #ddd;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#playlist li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+}
+
+#playlist li.active {
+    background-color: #f0f0f0;
+}
